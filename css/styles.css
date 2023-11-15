@@ -25,20 +25,28 @@ nav .logo {
 }
 
 
-
 nav ul {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 nav ul li {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
+
+
+@media (orientation:portrait) {
+  nav ul {
+     display: none; /* visibility: none; */
+  }
+}
+
+
 
 
 /*carosuell*/
@@ -191,7 +199,19 @@ welcome2 {
   
 }
 
+.leftimg {
 
+  width:390px;
+  margin:60px; 
+  margin-left: 13%; 
+  float: left;
+}
+
+@media (orientation:portrait) {
+  .leftimg {
+     margin-left: 5%; /* visibility: none; */
+  }
+}
 
 /*gallery */
 
@@ -230,3 +250,4 @@ div.scroll-container {
 div.scroll-container img {
   padding: 10px;
 }
+
