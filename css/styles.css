@@ -211,6 +211,9 @@ welcome2 {
   .leftimg {
      margin-left: 5%; /* visibility: none; */
   }
+  .logo {
+    width: 100%;
+  }
 }
 
 /*gallery */
