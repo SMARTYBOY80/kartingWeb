@@ -92,26 +92,6 @@ welcome2 {
 }
 
 /* Meet the Team */
-
-.skills {
-  text-align: right;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  color: white;
-}
-
-.one {width: 90%; background-color: #04AA6D;}
-.two {width: 80%; background-color: #2196F3;}
-.three {width: 65%; background-color: #f44336;}
-.four {width: 60%; background-color: #808080;}
-.five {width: 90%; background-color: #04AA6D;}
-.six {width: 80%; background-color: #2196F3;}
-.seven {width: 65%; background-color: #f44336;}
-.eight {width: 60%; background-color: #808080;}
-.nine {width: 65%; background-color: #f44336;}
-.ten {width: 60%; background-color: #808080;}
-
-
 .overflow-box {
   display: flex;
   overflow-x: auto;
